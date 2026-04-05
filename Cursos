@@ -1,0 +1,85 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package prog1atividadeHeranca;
+
+/**
+ *
+ * @author Dudu
+ */
+public class Cursos {
+    
+    private String codigo;
+    private String nome;
+    private int chTotal;
+    private int duracao;
+    private String tipo;
+    private String modalidade;
+    private String status;
+    
+    
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setcodigo(String _codigo) {
+        codigo = _codigo;
+    }
+    
+    
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String _nome) {
+        nome = _nome;
+    }
+    
+    
+    public int getChTotal() {
+        return chTotal;
+    }
+
+    public void setCHTotal(int _chTotal) {
+        chTotal = _chTotal;
+    }
+    
+    
+    public int getDuracao() {
+        return duracao;
+    }
+
+    public void setDuracao(int _duracao) {
+        duracao = _duracao;
+    }
+    
+    
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String _tipo) {
+        tipo = _tipo;
+    }
+    
+    
+    public String getModalidade() {
+        return modalidade;
+    }
+
+    public void setModalidade(String _modalidade) {
+        modalidade = _modalidade;
+    }
+    
+    
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String _status) {
+        status = _status;
+    }
+    
+    
+}
