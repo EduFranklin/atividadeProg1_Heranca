@@ -1,0 +1,34 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package prog1atividadeHeranca;
+
+/**
+ *
+ * @author Dudu
+ */
+public class Tecnico extends Cursos{
+    
+    private String eixoTecnologico;
+    private int chEstagio;
+    
+    
+    public String getEixoTecnologico() {
+        return eixoTecnologico;
+    }
+
+    public void setEixoTecnologico(String _eixoTecnologico) {
+        eixoTecnologico = _eixoTecnologico;
+    }
+    
+    
+    public int getChEstagio() {
+        return chEstagio;
+    }
+
+    public void setChEstagio(int _chEstagio) {
+        chEstagio = _chEstagio;
+    }
+    
+}
